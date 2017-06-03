@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  premio_id: 
+  usuario_id: 
+  cantidad: 1
+  puntos_pre: 1
+  estatus: 1
+
+two:
+  premio_id: 
+  usuario_id: 
+  cantidad: 1
+  puntos_pre: 1
+  estatus: 1

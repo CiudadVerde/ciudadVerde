@@ -1,0 +1,8 @@
+<p id="notice"><%= notice %></p>
+
+Nombre: <%=current_user.nombre%><br>
+RFC: <%=current_user.rfc%><br>
+Tipo: <%=current_user.tipo%><br>
+
+<%= link_to 'Edit', edit_user_path(current_user) %> |
+<%= link_to 'Back', users_path %>

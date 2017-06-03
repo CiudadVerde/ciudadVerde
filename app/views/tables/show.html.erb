@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @table.user %>
+</p>
+
+<p>
+  <strong>Material:</strong>
+  <%= @table.material %>
+</p>
+
+<p>
+  <strong>Puntos:</strong>
+  <%= @table.puntos %>
+</p>
+
+<%= link_to 'Edit', edit_table_path(@table) %> |
+<%= link_to 'Back', tables_path %>

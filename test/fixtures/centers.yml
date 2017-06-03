@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 
+  nombre: MyString
+  direccion: MyText
+  horario: MyString
+  lunes: false
+  martes: false
+  miercoles: false
+  jueves: false
+  viernes: false
+  sabado: false
+  domingo: false
+  lon: 9.99
+  lat: 9.99
+  porcentaje: 1
+  encargado: MyString
+
+two:
+  user_id: 
+  nombre: MyString
+  direccion: MyText
+  horario: MyString
+  lunes: false
+  martes: false
+  miercoles: false
+  jueves: false
+  viernes: false
+  sabado: false
+  domingo: false
+  lon: 9.99
+  lat: 9.99
+  porcentaje: 1
+  encargado: MyString

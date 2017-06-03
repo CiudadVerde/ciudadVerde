@@ -1,0 +1,2 @@
+json.extract! center, :id, :user_id, :nombre, :direccion, :horario, :lunes, :martes, :miercoles, :jueves, :viernes, :sabado, :domingo, :lon, :lat, :porcentaje, :encargado, :created_at, :updated_at
+json.url center_url(center, format: :json)

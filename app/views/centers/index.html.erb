@@ -1,0 +1,55 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Centers</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>User</th>
+      <th>Nombre</th>
+      <th>Direccion</th>
+      <th>Horario</th>
+      <th>Lunes</th>
+      <th>Martes</th>
+      <th>Miercoles</th>
+      <th>Jueves</th>
+      <th>Viernes</th>
+      <th>Sabado</th>
+      <th>Domingo</th>
+      <th>Lon</th>
+      <th>Lat</th>
+      <th>Porcentaje</th>
+      <th>Encargado</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @centers.each do |center| %>
+      <tr>
+        <td><%= center.user %></td>
+        <td><%= center.nombre %></td>
+        <td><%= center.direccion %></td>
+        <td><%= center.horario %></td>
+        <td><%= center.lunes %></td>
+        <td><%= center.martes %></td>
+        <td><%= center.miercoles %></td>
+        <td><%= center.jueves %></td>
+        <td><%= center.viernes %></td>
+        <td><%= center.sabado %></td>
+        <td><%= center.domingo %></td>
+        <td><%= center.lon %></td>
+        <td><%= center.lat %></td>
+        <td><%= center.porcentaje %></td>
+        <td><%= center.encargado %></td>
+        <td><%= link_to 'Show', center %></td>
+        <td><%= link_to 'Edit', edit_center_path(center) %></td>
+        <td><%= link_to 'Destroy', center, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Center', new_center_path %>
